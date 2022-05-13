@@ -1,5 +1,5 @@
 var Gpio = require("onoff").Gpio;
-var LED = new Gpio(4, "out");
+var LED = new Gpio(4, "out"); // Using GPIO Pin 4, output
 var blinkInterval = setInterval(blinkLED, 250); // Executes blinkLED function after every 250 miliseconds
 
 function blinkLED() {
