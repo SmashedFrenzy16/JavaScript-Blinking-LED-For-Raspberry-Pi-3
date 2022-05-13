@@ -24,3 +24,4 @@ function endBlink() {
 
 }
 
+setTimeout(endBlink, 10000);
