@@ -15,3 +15,12 @@ function blinkLED() {
   }
 
 }
+
+function endBlink() {
+  
+  clearInterval(blinkInterval);
+  LED.writeSync(0);
+  LED.unexport();
+
+}
+
